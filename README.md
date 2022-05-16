@@ -10,4 +10,13 @@ It retrieves the following:
 - price of product (original price)
 - link to the product page
 
+if you want to run the scraper you can run it with the following command (assuming you have all the necessary dependencies needed)
+
+scrapy crawl product -O product.json
+
+this command will scrape everything and create a new file called product.json
+all the items scraped will be stored inside that json file
+
+
+
 
